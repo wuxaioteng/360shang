@@ -1,0 +1,641 @@
+@import url("base.css");
+.text{
+	width: 5.98rem;
+	height: 0.72rem;
+	display: block;
+	border-radius: 0.07rem;
+	margin: 0.14rem auto;
+	padding-left: 0.14rem;
+	border: 0;
+	border: 0.01rem solid #e8e8e8;
+	
+}
+.text:focus{
+	outline: none;
+}
+.box{
+	width: 6.40rem;
+	height: 3.92rem;
+	background: yellow;
+	border-top: 0.02rem solid #dddddd;
+	position: relative;
+}
+.banner{
+	width: 6.40rem;
+	height: 3.92rem;
+	background: blue;
+}
+.banner .yutou{
+	width: 6.40rem;
+	height: 3.92rem;
+	position: absolute;
+}
+.liji{
+	width: 1.52rem;
+	height: 0.16rem;
+	/* background: yellowgreen; */
+	position: absolute;
+	left: 2.44rem;
+	bottom: 0.23rem;
+}
+.dain{
+	width: 0.15rem;
+	height: 0.16rem;
+	background: #4f63a7;
+	border-radius: 50%;
+	float: left;
+	margin-left: 0.19rem;
+}
+.dain:first-child{
+	margin-left:0rem;
+}
+.sha{
+	width: 6.4rem;
+	height: 0.62rem;
+	background: #ffffff;
+	padding-top: 0.26rem;
+}
+.sha .che{
+	width: 4.70rem;
+	height: 0.44rem;
+	/* background: blue; */
+	margin-left: 0.36rem;
+	overflow: hidden;
+}
+.che .tou{
+	width: 1.64rem;
+	height: 0.38rem;
+	/* background: green; */
+	margin-top: 0.02rem;
+	border-right: 0.01rem solid #e1e1e1;
+	float: left;
+	line-height: 0.38rem;
+	display: block;
+}
+.tou .chen{
+	width: 0.77rem;
+	height: 0.36rem;
+	float: left;
+	/* background: blue; */
+	
+}
+.chen .sahn{
+	font-size: 0.38rem;
+	color: #2c2c2c;
+}
+.tou .chen1{
+	width: 0.76rem;
+	height: 0.38rem;
+	background: #fd6f6b;
+	float: left;
+}
+.chen1 .chen2{
+	font-size: 0.34rem;
+	color: #ffffff;
+}
+.che .xin{
+	width:2.97rem; 
+	height: 0.38rem;
+	/* background: gray; */
+	display: block;
+	float: left;
+	margin-top: 0.02rem;
+	margin-left: 0.07rem;
+}
+.xin .zhi{
+	font-size: 0.22rem;
+	color:#666666; 
+}
+
+/* 掌上秒杀开始 */
+.biao{
+	width: 6.4rem;
+	height: 0.74rem;
+	background: #ffffff;
+	border-right: 2px solid #ffffff;
+	border-bottom: 2px solid #ffffff;
+	overflow: hidden;
+	position: relative;
+}
+.biao .bioa_left{
+	width: 1.85rem;
+	height:0.41rem;
+	/* background: red; */
+	margin-left: 0.24rem;
+	margin-top: 0.19rem;
+	float: left;
+
+}
+.bioa_left .zha_s{
+	width: 0.46rem;
+	height: 0.41rem;
+	/* background: blue; */
+	float: left;
+}
+.zha_s img{
+	display: block;
+	width: 0.46rem;
+	height: 0.41rem;
+}
+.bioa_left .sha_x{
+	font-size: 0.28rem;
+	color: #ff5a00;
+	float: right;
+}
+.bioa_right{
+	width: 3.2rem;
+	height: 0.55rem;
+	/* background: seagreen; */
+	float: left;
+	margin-top: 0.19rem;
+	margin-left: 0.5rem;
+}
+.bioa_right .cha_1{
+	width: 0.81rem;
+	height: 0.22rem;
+	/* background: gray; */
+	float: left;
+	font-size: 0.22rem;
+	color: #000;
+}
+.bioa_right .ca_b{
+	width: 1.36rem;
+	height: 0.42rem;
+	/* background: blue; */
+	border-radius: 0.05rem;
+	margin-left: 0.96rem;
+}
+.ca_b .ca_c{
+	width: 0.4rem;
+	height: 0.42rem;
+	background: #000;
+	font-size:0.18rem; 
+	color: #ffffd7;
+	border-radius: 0.05rem;
+	float: left;
+	line-height: 0.42rem;
+	text-align: center;
+}
+.ca_b .ca_c1{
+	font-size: 0.14rem;
+	color: #000;
+	margin-left: 0.02rem;
+	float: left;
+}
+.ca_b .ca_c2{
+	width: 0.4rem;
+	height: 0.42rem;
+	background: #000;
+	font-size:0.18rem; 
+	color: #ffffd7;
+	border-radius: 0.05rem;
+	float: left;
+	line-height: 0.42rem;
+	text-align: center;
+}
+.ca_b .ca_c3{
+	font-size: 0.14rem;
+	color: #000;
+	margin-left: 0.02rem;
+	float: left;
+}
+.ca_b .ca_c4{
+	width: 0.4rem;
+	height: 0.42rem;
+	background: #000;
+	font-size:0.18rem; 
+	color: #ffffd7;
+	border-radius: 0.05rem;
+	float: left;
+	line-height: 0.42rem;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.xian{
+	width: 2.11rem;
+	height: 0.24rem;
+	/* background: red; */
+	line-height: 0.24rem;
+	position: absolute;
+	right: 0.24rem;
+	bottom: 0.1rem;
+}
+.xian pre{
+	font-size: 0.22rem;
+	color: #ff5a00;
+	margin-top: 0.02rem;
+}
+.xian .xinn1{
+	font-size: 0.22rem;
+	color: #ff5a00;
+	margin-left: 0.01rem;
+	position: absolute;
+}
+.miao{
+	width: 6.4rem;
+	height: 4.29rem;
+	background: #ffffff;
+	overflow: hidden;
+}
+.miao .m_c{
+	width: 5.92rem;
+	height: 2.02rem;
+	background: yellow;
+	border: 0.02rem solid #f3f3f3;
+	margin-left: 0.26rem;
+	margin-top: 0.67rem;
+	border-right: 0;
+}
+.m_c .ya{
+	width: 1.46rem;
+	height: 2.02rem;
+	background: blue;
+	display: block;
+	float: left;
+	border-right: 0.02rem solid #f3f3f3;
+}
+.m_c .ya:last-child{
+	border-right:0;
+}
+.ya .rou{
+	width: 1.46rem;
+	height: 2.02rem;
+}
+.miao .jia{
+	width: 5.9rem;
+	height: 0.48rem;
+	/* background: yellow; */
+	margin-left: 0.38rem;
+	margin-top: 0.18rem;
+}
+.jia .qan{
+	width: 1.4rem;
+	height: 0.48rem;
+	/* background: blue; */
+	float: left;
+}
+.jia .qan:nth-child(2){
+	margin-left: 0.09rem;
+}
+.jia .qan:nth-child(3){
+	margin-left: 0.09rem;
+}
+.jia .qan:last-child{
+	margin-left: 0.1rem;
+}
+.qan .qn{
+	font-size: 0.18rem;
+	color: #ff559a;
+}
+.qan .qn1{
+	font-size: 0.18rem;
+	color: #aabcd7;
+	text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 明星单品开始 */
+.xin1 {
+	width: 6.4rem;
+	height: 0.84rem;
+	background: #f4f4f4;
+	overflow: hidden;
+}
+.xin1 .xin1_c{
+	width: 1.58rem;
+	height: 0.46rem;
+	/* background: yellowgreen; */
+	margin: 0 auto;
+	margin-top: 0.23rem;
+	overflow: hidden;
+	text-align: center;
+}
+.xin1_c .xin_x{
+	width: 0.24rem;
+	height: 0.02rem;
+	background: #cccccc;
+	margin-top: 0.2rem;
+	float: left;
+
+}
+.xin1_c .xin_x:last-child{
+	margin-left: 0.1rem;
+}
+.xin1_c .xin_x1{
+	font-size: 0.22rem;
+	color: #666666;
+	float: left;
+	line-height: 0.46rem;
+	margin-left: 0.1rem;
+}
+
+
+
+
+
+
+
+
+.zha{
+	width: 6.4rem;
+	height: 13.7rem;
+	background: blue;
+}
+.zha .dan1{
+	width: 3.2rem;
+	height:4.56rem; 
+	background: #ffffff;
+	display: block;
+	float: left;
+	border-bottom: 0.01rem solid #f1f1f1; 
+	border-right:0.01rem solid #f1f1f1; 
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.zha .dan1:nth-child(2n){
+	border-right:0;
+}
+
+.dan1 .dan3{
+	width: 2.91rem;
+	height: 3.94rem;
+	/* background: red; */
+	margin-left: 0.22rem;
+	margin-top: 0.34rem;
+}
+.dan3 .dan1_t{
+	width: 2.56rem;
+	height: 0.6rem;
+	border-radius: 0.3rem;
+	background: #ffffff;
+	border: 1px solid #e1e1e1;
+	margin-left: 0.07rem;
+}
+.dan1_t .jiao{
+	width: 0.4rem;
+	height: 0.4rem;
+	background: yellow;
+	float: left;
+	margin-left: 0.1rem;
+	margin-top: 0.08rem;
+}
+.dan1_t .jiao1{
+	width: 1.66rem;
+	height: 0.22rem;
+	/* background: blue; */
+	margin-left: 0.63rem;
+	margin-top: 0.18rem;
+	line-height: 0.22rem;
+}
+.jiao1 .jioa2{
+	font-size: 0.22rem;
+	color: #222222;
+}
+.dan3 .dan1_t1{
+	width: 2.30rem;
+	height: 2.72rem;
+	background: greenyellow;
+	margin-top: 0.19rem;
+	margin-left: 0.16rem;
+}
+.dan1_t1 .ct{
+	width: 2.30rem;
+	height: 2.72rem;
+}
+.dan3 .dan1_t2{
+	width: 1.48rem;
+	height: 0.22rem;
+	/* background: yellow; */
+	margin-left: 0.62rem;
+	margin-top: 0.16rem;
+	line-height: 0.22rem;
+}
+.dan1_t2 .dan1_t3{
+	font-size: 0.22rem;
+	color: #555555;
+}
+/* 明星单品结束 */
+
+/* 退货开始 */
+.tui{
+	width: 6.4rem;
+	height:2.32rem;
+	background:#ffffff; 
+/* 	margin-bottom: 1.32rem; */
+	overflow: hidden;
+}
+.tui .wu{
+	width: 2rem;
+	height: 1.68rem;
+	/* background: yellow; */
+	border-right: 0.02rem solid #d6d6d6;
+	margin-top: 0.32rem;
+	margin-left: 0.34rem;
+	float: left;
+}
+.tui .wu:nth-child(2){
+	margin-left: 0.38rem;
+}
+.tui .wu:last-child{
+	width: 1.6rem;
+	margin-left: 0;
+}
+.wu i{
+	display: block;
+	font-size: 0.78rem;
+	font-family: 'iconfont'; 
+	margin-left: 0.4rem; 
+}
+.wu .li{
+	font-size: 0.2rem;
+	color: #666666;
+	margin-top: 0.22rem;
+	margin-left: 0.05rem;
+}
+.wu .li1{
+	font-size: 0.2rem;
+	color: #666666;
+	margin-top:0.03rem;
+}
+
+
+
+
+
+/* 退货结束 */
+
+/* 热线开始 */
+.ke{
+	width: 6.4rem;
+	height: 2.56rem;
+	background: #ffffff;
+	/* margin-bottom: 2.6rem; */
+	position: relative;
+}
+.ke .du{
+	width: 1.12rem;
+	height: 0.22rem;
+	/* background: blue; */
+	float: left;
+	margin-left: 0.33rem;
+	margin-top: 0.5rem;
+	font-size: 0.22rem;
+	color: #999999;
+}
+.ke .du1{
+	width:4.14rem; 
+	height: 1.78rem;
+	/* background:green; */
+	margin-left: 0.17rem;
+	margin-top:  0.5rem;
+	float: left;
+}
+.du1 .k_b{
+	font-size: 0.18rem;
+	color: #666666;
+}
+.du1 .k_b:nth-child(2){
+	margin-top: 0.25rem;
+}
+.du1 .k_b:nth-child(3){
+	margin-top: 0.21rem;
+}
+.du1 .k_b:last-child{
+	margin-top: 0.3rem;
+}
+.din{
+	font-family: 'iconfont'; 
+	font-size:0.82rem;
+	color: #b2b2b2;
+	position: absolute;
+	right: 0;
+	bottom: 0.12rem;
+}
+
+
+
+
+
+
+
+
+
+/* 热线结束 */
+
+
+
+
+
+
+
+
+
+
+
+
+/* 结尾开始 */
+
+footer{
+	width: 6.4rem;
+	height: 1.28rem;
+	background: #ffffff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 999;
+}
+footer .foot_s{
+	width: 6.4rem;
+	height: 1.28rem;
+}
+
+.foot_s .wei{
+	width:25%; 
+	height: 100%;
+	background: #ffffff;
+	float: left;
+}
+.wei .wei1{
+	width: 0.85rem;
+	height: 0.85rem;
+	/* background: yellowgreen; */
+	display: block;
+	margin-top: 0.17rem;
+	margin-left: 0.4rem;
+}
+.wei1 .x_s{
+	font-family: 'iconfont';
+	width: 0.53rem;
+	height: 0.53rem;
+	/* background: yellow; */
+	margin-left: 0.14rem;
+	font-size: 0.48rem;
+	color: #737373;
+}
+.wei1 .x_s3{
+	font-family: 'iconfont';
+	font-size: 0.48rem;
+	color: #3ab760;
+	margin-left: 0.14rem;
+}
+.wei1 .x_s1{
+	font-size: 0.22rem;
+	color: #000;
+	text-align: center;
+	margin-top: 0.06rem;
+	margin-right: 0.08rem;
+}
+.wei1 .x_s11{
+	font-size: 0.22rem;
+	color: #3ab760;
+	text-align: center;
+	margin-right: 0.1rem;
+	margin-top: 0.05rem;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 498377 */
+  src: url('https://at.alicdn.com/t/font_498377_eljavwuyx6iggb9.eot');
+  src: url('https://at.alicdn.com/t/font_498377_eljavwuyx6iggb9.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_498377_eljavwuyx6iggb9.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_498377_eljavwuyx6iggb9.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_498377_eljavwuyx6iggb9.svg#iconfont') format('svg');
+}
+
+/* 结尾结束 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
